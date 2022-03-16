@@ -1,5 +1,23 @@
 $brand-color: #e685b5;
 $gray: #bbbbbb;
+$gradient-first: rgba(0, 57, 90, 0.5);
+$gradient-second: rgba(220, 37, 196, 0.5);
+
+body{
+  background-image:-webkit-linear-gradient(
+    60deg,
+    $gradient-second,
+    $gradient-first,
+  );
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+}
 
 .contact {
     .contact__list {
