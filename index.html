@@ -7,15 +7,15 @@ text-align: center
 
   <div class="row align-items-center">
     <div class="col col-12 col-md-6 text-{{ page.text-align }}">
-        <img class="d-block mx-auto mb-2" src="./assets/text.png" alt="" width="128">
+        <img class="d-block mx-auto mb-2" src="./assets/text_childstories.png" alt="" width="128">
         <h3>{{ site.title }}</h3>
         <p class="lead py-5">{{ site.description }}.</p>
             {% if site.google_play_id %}
-            <a href='http://play.google.com/store/{{ site.google_play_id }}?pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+            <a href='http://play.google.com/store/apps/details?id={{ site.google_play_id }}'>
               <img alt='Доступно в Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/ru_badge_web_generic.png' width="240"/></a>
             {% endif %}
     </div>
 
-    <img class="col col-12 col-md-6 mb-auto py-2" src="./assets/app_view.png" alt="" />
+    <img class="col col-12 col-md-6 mb-auto py-2" src="./assets/app_view_childstories.png" alt="" />
 
   </div>
