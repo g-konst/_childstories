@@ -14,6 +14,10 @@ text-align: center
             <a href='http://play.google.com/store/apps/details?id={{ site.google_play_id }}'>
               <img alt='Доступно в Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/ru_badge_web_generic.png' width="240"/></a>
             {% endif %}
+            {% if site.galaxy_store_tag %}
+            <a href='https://galaxy.store/{{ site.galaxy_store_tag }}'>
+              <img alt='Доступно в Galaxy Store' src='./assets/GalaxyStore_Russian.png' width="240"/></a>
+            {% endif %}
     </div>
 
     <img class="col col-12 col-md-6 mb-auto py-2" src="./assets/app_view_childstories.png" alt="" />
